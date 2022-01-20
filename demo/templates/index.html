@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>HomePage</h1>
+
+    {% for x in data %}
+        {{x.name}}
+    {% endfor %}
+
+{% endblock %}
